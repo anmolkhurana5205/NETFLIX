@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main {
+    background-image: url("assets/images/mainbg1.jpg");
+    height: 90vh;
+    background-size: max(1297px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.layer {
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.74;
+    position: absolute;
+    top: 0%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 200px;
+
+}
+
+.netlogo {
+    color: red;
+    width: 614px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbut button {
+    position: relative;
+    z-index: 10;
+    font-size: 4.1rem;
+
+}
+
+.hero {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    position: relative;
+    top: -5%;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bolder;
+    text-align: center;
+    gap: 100px;
+
+}
+
+.hero>:first-child {
+    font-size: 6vh;
+    font-family: "Special Gothic Expanded One";
+    font-weight: 1100;
+
+}
+
+.email {
+    widtH: 25vw;
+    height: 5vh;
+    border: .5px solid rgba(255, 255, 255, 0.377);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 20px;
+    position: relative;
+    font-size:3vh;
+    color:blanchedalmond;
+    
+    
+
+
+}
+
+.email::placeholder {
+
+    font-size: 2.5vh;
+    color: rgb(165, 160, 160)
+}
+
+.start {
+    font-size: 3vh;
+    width: 13vw;
+    height: 6.5vh;
+    position: relative;
+    background-color: rgba(255, 3, 3, 0.801);
+    border: .3px solid black;
+    border-radius: 20px;
+    color: white;
+    font-weight: 100;
+    margin-left: 13px;
+    text-align: center;
+
+}
+
+.main2 {
+    margin-top: -7vh;
+    height: 60vh;
+    background: radial-gradient(70% 40% at center top,
+            /* Smaller height for tighter curve */
+            #213054 0%,
+            /* Start of the blue */
+            #16223d 30%,
+            /* Blue area */
+            #000000 100%
+            /* Fade into black */
+        );
+    border: 15px solid red;
+    border-top-left-radius: 40% 10%;
+    border-top-right-radius: 40% 10%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+
+}
+
+.trend{
+
+    color: white;
+    font-size: 2.75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 19.2%;
+    left: 8%
+}
+
+.event {
+    display: flex;
+    column-gap: 3vw;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+
+
+}
+
+.imageall {
+    width: 15vw;
+    height: 33vh;
+    border:10px solid rgb(128, 96, 48);
+    border-radius: 20px;
+}
+.imageall:hover{
+    scale:1.1;
+    transition: scale .2s ease-out 0s;
+}
+/* .text1{
+    font-size: 12vh;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    border:5px solid white;
+
+    position:absolute;
+    z-index: 2;
+    top:-10% ;
+} */
+ .main3{
+    height:100vh;
+    width: 100vw;
+    background-color: black;
+ }
+ .boxes{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .box1,.box2,.box3,.box4,box5{
+    width: 20vw;
+    height: 30vh;
+    background-color: rgba(42, 42, 95, 0.708);
+    /* background: linear gra(to bottom rgb(42, 42, 95) 0%,
+     #2b2b7d 80%, rgb(191, 122, 122) 100%); */
+    border-radius: 70px;
+    margin: 1vw;
+    position:relative;
+    top: 7vh;
+ }
+p{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   text-indent: 7vw;
+   position: relative;
+   top: 8vh;
+
+}
+.head{
+font-size: 2.5vh;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif ;
+color: rgba(255, 255, 255, 0.708);
+
+}
+.para{
+
+  padding:15px;
+  padding-top:100px;
+   position:relative;
+   right:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.463);
+    font-size:2vh;
+}
